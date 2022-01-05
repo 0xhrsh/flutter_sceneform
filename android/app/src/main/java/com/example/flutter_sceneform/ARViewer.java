@@ -87,7 +87,7 @@ public class ARViewer extends AppCompatActivity implements
     public void loadModels() {
         WeakReference<ARViewer> weakActivity = new WeakReference<>(this);
         ModelRenderable.builder()
-                .setSource(this, Uri.parse("https://storage.googleapis.com/ar-answers-in-search-models/static/Tiger/model.glb"))
+                .setSource(this, Uri.parse("https://hrshanand.github.io/arEd-assets/heatflow%20experiment.glb"))
                 .setIsFilamentGltf(true)
                 .setAsyncLoadEnabled(true)
                 .build()
